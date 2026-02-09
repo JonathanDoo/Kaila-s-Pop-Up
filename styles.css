@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh ;
+    background: rgb(244, 235, 227);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.title{
+    font-size: 65px;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background: rgb(165, 156, 146);
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 100px;
+    color: black;
+}
+nav a {
+    position: relative;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: dotted;
+    margin-right: 13px;
+}
+
+nav a:hover:before {
+    width: 100%;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255); 
+    padding: 15px;
+    transition: .3s;
+    transition: .8s;
+    background-color: black;
+}
+.Who_We_Are{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.wwa{
+    text-align: center;
+    font-size: 40px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.wwa1{
+    text-align: left;
+    padding-top: 0px;
+}
+.whole{
+    padding-left: 400px;
+    font-size: 25px;
+}
+.pet{
+    background-image: url(Images/food8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 475px;
+    height: 475px;
+}
+.text{
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    margin-right: 50px;
+    /*background-color: rgb(207, 207, 207);*/
+    font-size: 30px;
+    padding-left: 50px;
+}
+.bg{
+    background: rgb(214, 206, 198);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.future{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.kaila1{
+    background-image: url(Images/food8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+}
+.kaila2{
+    background-image: url(Images/581949985_796298436705094_5034012637733081172_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+}
+.kaila3{
+    background-image: url(Images/579439453_835587455721977_6843533460537676005_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+}
+.kaila4{
+    background-image: url(Images/577565864_839774311769261_2015926105540741375_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.kaila5{
+    background-image: url(Images/577565864_839774311769261_2015926105540741375_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-left: 20px;
+}
+.support{
+    font-size: 30px;
+}
+/*footer{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}*/
+footer {
+    background: rgb(165, 156, 146);
+    color: #000000;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    font-size: 25px;
+}
+
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.cont{
+    background-image: url(Images/581949985_796298436705094_5034012637733081172_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 475px;
+    height: 475px;
+}
